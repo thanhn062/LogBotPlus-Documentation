@@ -22,7 +22,8 @@ Remember to run the program as admin, you don't have to but it helps with activa
   - You need to invite this bot into your channel
   - Upload a small duration soundtrack of beeping sound of alarm or whatever you choose via the SoundFX bot command, and name it "alarm", I will include an alarm soundtrack inside LogBotPlus.rar
   - Now just leave the discord window in the background and start the bot, on parasaur alert, it will switch to Discord window and type "?loop alarm" to loop the sound track that you uploaded
-  - Anyone in the discord can type "?stop" to stop the annoying beeping sound or it will auto stop after 15 minutes
+  - Anyone in the discord (you don't need to be in voice to do this) can type "?stop" to stop the annoying beeping sound or it will auto stop after 15 minutes
+  - *Me and my tribemates usually sleep or chill near our device and have it on max volume and joined in the voice channel. Everyone in the voice channel can hear the alarm and respond to be as quick as possible*
 7. For this section, it is for the bot to monitor server's online status and population via battlemetric, you don't have to fill it if you don't need it
 
 ![Server](https://user-images.githubusercontent.com/12405800/132084181-60b51a2c-6881-491d-9a16-1022dc7b0b00.png)
