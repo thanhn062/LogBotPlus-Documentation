@@ -33,3 +33,21 @@ How To Get Your Server's ID On Battlemetric
 
 ![serverid](https://user-images.githubusercontent.com/12405800/132084285-004bfa6d-6f97-47b1-a21a-2118921344b0.png)
 
+## Demo
+
+Tribe Log 
+
+![demo](https://user-images.githubusercontent.com/12405800/132084402-fb406f92-1676-4851-a7d2-f30ed530a11c.png)
+
+Global Chat Log
+
+![globalchat](https://user-images.githubusercontent.com/12405800/132084450-1809f0b9-deb5-469f-923a-9b391af92a97.png)
+
+Online Log
+
+![onlinelog](https://user-images.githubusercontent.com/12405800/132084475-71afa1f7-fcc4-4f37-a477-6e0c8839688b.png)
+
+Screen Check
+
+![screen check](https://user-images.githubusercontent.com/12405800/132084509-43bafb87-45b5-4220-a267-330d8e324e70.png)
+
