@@ -1,4 +1,5 @@
 # LogBotPlus-Documentation
+![logbotplus](https://user-images.githubusercontent.com/12405800/132085422-46bc6e00-a02e-4f95-848c-c9e74f581238.png)
 ## Setup
 Remember to run the program as admin, you don't have to but it helps with activating window
 1. Set up a new channels with appropriate name (i.e. #tribe-log, #online-log, ...) or just one if you like it that way, the bot will automactically put the right caption for the content it is sending to that webhook
