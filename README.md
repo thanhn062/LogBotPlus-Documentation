@@ -12,10 +12,10 @@ Remember to run the program as admin, you don't have to but it helps with activa
 
 ![features](https://user-images.githubusercontent.com/12405800/132083729-d49b580e-e9db-4331-af50-03ac0c4e525a.png)
 
-- _**Event to send**_ - Uncheck any boxes that you would like to **NOT** get notify about
-- _**Global Chat**_ - Send a cropped picture of chat log every # minutes
-- _**Online Log**_ - Send a cropped picture of member inside tribelog every # minutes
-- _**Screen Check**_ - Send a full screenshot for easier debug or to check if the bot still working
+- _**Event to send**_ - Uncheck any boxes that you would like to **NOT** get notify about - note: everything that is no recognize by the bot will appear as cryo event (i.e. Member add, member promote, etc.. so i advise you to not uncheck cryo event, you may uncheck it if all you need are Red(death/destroyed), Green(sensor), and Purple(kill) alert )
+- _**Global Chat**_ - Send a cropped picture of chat log every # minutes - I advise you to mute this channel and only check it as need because of low interval it can get pretty annoying
+- _**Online Log**_ - Send a cropped picture of member inside tribelog every # minutes - same with this, as you only need to check it if you want to investigate insider online time, you may limit the #text-channel to just the leaders of the tribe
+- _**Screen Check**_ - Send a full screenshot for easier debug or to check if the bot still working - same with this, it's only need if you want to check if the bot is still running
 - _**Play sound to channel on parasaur alert**_ - When this is checked, on parasaur alert, the bot will switch window to discord and type ?loop alarm to start looping a soundtrack in the voice channel the discord user is currently in
   - This require a bit set up on the SoundFX Discord Bot https://top.gg/bot/430384808200372245
   - You need to invite this bot into your channel
@@ -38,6 +38,10 @@ How To Get Your Server's ID On Battlemetric
 Tribe Log 
 
 ![demo](https://user-images.githubusercontent.com/12405800/132084402-fb406f92-1676-4851-a7d2-f30ed530a11c.png)
+
+Parasour Alert - play sound on voice channel
+
+![loopalarm](https://user-images.githubusercontent.com/12405800/132085254-99a58272-9665-48d8-a296-7a1a6af4a64a.png)
 
 Global Chat Log
 
