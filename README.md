@@ -12,7 +12,7 @@ Remember to run the program as admin, you don't have to but it helps with activa
 
 ![features](https://user-images.githubusercontent.com/12405800/132083729-d49b580e-e9db-4331-af50-03ac0c4e525a.png)
 
-- _**Event to send**_ - Uncheck any boxes that you would like to **NOT** get notify about - note: everything that is no recognize by the bot will appear as cryo event (i.e. Member add, member promote, etc.. so i advise you to not uncheck cryo event, you may uncheck it if all you need are Red(death/destroyed), Green(sensor), and Purple(kill) alert )
+- _**Event to send**_ - Uncheck any boxes that you would like to **NOT** get notify about - note: everything that is not recognize by the bot will appear as cryo event (i.e. Member add, member promote, etc.. so i advise you to not uncheck cryo event, you may uncheck it if all you need are Red(death/destroyed), Green(sensor), and Purple(kill) alert )
 - _**Global Chat**_ - Send a cropped picture of chat log every # minutes - I advise you to mute this channel and only check it as need because of low interval it can get pretty annoying
 - _**Online Log**_ - Send a cropped picture of member inside tribelog every # minutes - same with this, as you only need to check it if you want to investigate insider online time, you may limit the #text-channel to just the leaders of the tribe
 - _**Screen Check**_ - Send a full screenshot for easier debug or to check if the bot still working - same with this, it's only need if you want to check if the bot is still running
