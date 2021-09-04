@@ -2,7 +2,7 @@
 ![logbotplus](https://user-images.githubusercontent.com/12405800/132085422-46bc6e00-a02e-4f95-848c-c9e74f581238.png)
 ## Setup
 Remember to run the program as admin, you don't have to but it helps with activating window
-1. Set up a new channels with appropriate name (i.e. #tribe-log, #online-log, ...) or just one if you like it that way, the bot will automactically put the right caption for the content it is sending to that webhook
+1. Set up a new channels with appropriate name (i.e. #tribe-log, #online-log, ...) or just one if you like it that way, the bot will automatically put the right caption for the content it is sending to that webhook
 2. Now go into _**Server's Setting > Integrations > Create Webhook**_ and set up webhook for the #text-channels and copy and paste them into the bot window 
 
 ![Webhook](https://user-images.githubusercontent.com/12405800/132083505-7d4876ca-118b-401a-920b-afd806583809.png) 
