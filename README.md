@@ -1,6 +1,57 @@
 # LogBotPlus-Documentation
-![logbotplus](https://user-images.githubusercontent.com/12405800/132085422-46bc6e00-a02e-4f95-848c-c9e74f581238.png)
-## Setup
+<img src="https://user-images.githubusercontent.com/12405800/132085422-46bc6e00-a02e-4f95-848c-c9e74f581238.png" width="300" height="300" /><img src="https://user-images.githubusercontent.com/12405800/133882456-f1b49d13-fea5-46a6-b9b8-8fe432ad8678.jpg" width="300" height="auto" /><img src="https://user-images.githubusercontent.com/12405800/133882760-c4ce30d0-4ebf-457f-a262-4170fd47e9c8.png" width="420" height="auto" />
+
+#### Table of Contents
+1. [About](#about)
+2. [Pictures](#pictures)
+3. [Files Info](#info)
+4. [Code Review](#review)
+5. [Setup](#setup)
+6. [Setting](#setting)
+7. [Note](#note)
+8. [FAQ](#faq)
+9. [Change Log](#changelog)
+##
+## <a name="about"/> About 
+
+#### What can this bot do ?
+- *Auto reconnect* when server crash and on update that doesn't require client update
+- *Send* a cropped picture of tribe log to your tribe discord via webhook when there is new events in real-time with caption like
+  + Your tribe killed/claimed something
+- *Send* a cropped picture of chat log whenever someone message appear in chat log, beside tribemate but it will still send to discord as long as stranger's message is still visible in chat log
+- *Send* a cropped picture of tribe members inside tribe window (L) to check their online/offline status every # minutes
+- *Send* a full screenshot every # minutes to keep your eye on the bot screen to see if there is any complication - I suggest you mute this channel, it is mainly use for debug
+- *Send* a full screenshot on parasaur alert and play a sound of your choice to the voice channel
+- *Play music/sound to voice channel* when the amount of new events go above the threshold or if the amount of new events go above the threshold WITHIN the set timeframe
+- *Track* server's population when it goes past the set threshold
+
+
+*These features can be turn off*
+
+## <a name="pictures"/> Pictures
+<img src="https://user-images.githubusercontent.com/12405800/133885544-2c93c779-72b0-4405-92af-594cfc1a1bb3.png" width="420" height="auto" />
+<img src="https://user-images.githubusercontent.com/12405800/133885554-6e85856a-7079-467f-a0f3-4ecfe898dc8d.png" width="420" height="auto" />
+<img src="https://user-images.githubusercontent.com/12405800/133885548-be1a4042-6ae2-4818-8697-605466e87bd7.png" width="420" height="auto" />
+<img src="https://user-images.githubusercontent.com/12405800/133885556-06958185-5576-4b6c-9453-a977b57a9ec2.png" width="420" height="auto" />
+<img src="https://user-images.githubusercontent.com/12405800/133885559-9a3614b5-834e-411a-a7f5-2ed46017107b.png" width="420" height="auto" />
+
+
+## <a name="info"/> Files Content & Info 
+- LogBotPlus.rar
+  + logbotplus.png
+  + setting.ini
+  + Autohotkey.exe
+    + Official Autohotkey.exe from autohotkey installer 
+  + Autohotkey.ahk
+    + LogBotPlus 2.7.2.ahk encrypted version produced by FeiYu Encryptor
+    + Hash:
+    + Virustotal link:
+
+
+## <a name="review"/> Code Review 
+
+## <a name="setup"/> Setup 
+
 Remember to run the program as admin, you don't have to but it helps with activating window
 1. Set up a new channels with appropriate name (i.e. #tribe-log, #online-log, ...) or just one if you like it that way, the bot will automatically put the right caption for the content it is sending to that webhook
 2. Now go into _**Server's Setting > Integrations > Create Webhook**_ and set up webhook for the #text-channels and copy and paste them into the bot window 
