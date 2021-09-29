@@ -26,7 +26,7 @@
 - *Track* server's population when it goes past the set threshold
 
 
-*These features can be turn off*
+__These features can be turn off__
 
 ## <a name="pictures"/> Pictures
 <img src="https://user-images.githubusercontent.com/12405800/133885544-2c93c779-72b0-4405-92af-594cfc1a1bb3.png" width="420" height="auto" />
@@ -52,7 +52,12 @@
 
 ## <a name="setup"/> Setup 
 
-1. Set up a new channels with appropriate name (i.e. #tribe-log, #online-log, ...) or just one if you like it that way, the bot will automatically put the right caption for the content it is sending to that webhook
+1. Set up a new channels with appropriate name (i.e. #tribe-log, #online-log, ...) or just one if you like it that way, the bot will automatically put the right caption for the content it is sending to that webhook. Here are some that I made for my tribe discord
+  - ⎣📜⎤ᴛʀɪʙᴇ ʟᴏɢ
+  - ⎣🌎⎤ɢʟᴏʙᴀʟ ᴄʜᴀᴛ
+  - ⎣📊⎤ᴏɴʟɪɴᴇ ʟᴏɢ
+  - ⎣📺⎤ꜱᴄʀᴇᴇɴ ᴄʜᴇᴄᴋ
+  - ⎣📖⎤ʙᴏᴏᴋᴍᴀʀᴋ - copy message link from tribe log and paste it here to bookmark an important tribelog event
 2. Now go into _**Server's Setting > Integrations > Create Webhook**_ and set up webhook for the #text-channels
 
 <img src="https://support.discord.com/hc/article_attachments/1500000463501/Screen_Shot_2020-12-15_at_4.41.53_PM.png" width="500" height="auto" />
@@ -69,14 +74,14 @@
 ## <a name="setting"/> Setting
 
 - _**Tribe Log - Event to send**_
-  -  Uncheck any boxes that you would like to **NOT** get notify about
-  -  note: everything that is not recognize by the bot will appear as cryo event (i.e. Member add, member promote, tribe destroy, etc.. so i advise you to not uncheck cryo event, you may uncheck it if all you need are Red(death/destroyed), Green(sensor), and Purple(kill) alert )
+  -  Uncheck any event that you would like to **NOT** get notify
+  -  note: Other insignificant events that is not recognize by the bot will appear as cryo event (i.e. Member add, member promote, tribe destroy, etc.. - i advise you to not uncheck cryo event, you may uncheck it if all you need are Red(death/destroyed), Green(sensor), and Purple(kill) alert )
 - _**Global Chat**_ 
    - Send a cropped picture of chat log upon new activities
-- _**Online Log**_ 
+- _**Online Log**_
   -  Send a cropped picture of member inside tribelog every # minutes 
   -  note: mute this channel because you only need to check it if you need to investigate member online time, you may limit the #text-channel to just the leaders of the tribe
-- _**Screen Check**_ 
+- _**Screen Check**_
   -  Send a full screenshot every # minutes to check if the bot still working - mute this channel as well
 - _**Play sound to channel on parasaur alert**_ 
   -  When this is checked, on parasaur alert, the bot will switch to discord window and type to start looping a soundtrack in the voice channel the discord bot is currently in so make sure you joined the voice channel before start the bot
@@ -85,15 +90,17 @@
 - _**Server**_
   - Track server's online status and population 
 
-How To Get Your Server's ID On Battlemetric
-- Google your server name + battlemetric at the end for example
-- "smalltribes14 battlemetric"
-- Click the first link and this will be your Battlemetric server's ID, paste it into the client 
+- How To Get Your Server's ID On Battlemetric
+  - Google your server name + battlemetric at the end for example
+  - "smalltribes14 battlemetric"
+  - Click the first link and this will be your Battlemetric server's ID, paste it into the client 
 
 ![serverid](https://user-images.githubusercontent.com/12405800/132084285-004bfa6d-6f97-47b1-a21a-2118921344b0.png)
 
 ## <a name="setting"/> Note
+
 ## <a name="setting"/> FAQ
+
 ## <a name="setting"/> Change log
 2.7.2
 - Changed from SoundFX bot to Tempo bot
