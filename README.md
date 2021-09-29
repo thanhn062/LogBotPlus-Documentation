@@ -52,48 +52,38 @@
 
 ## <a name="setup"/> Setup 
 
-Remember to run the program as admin, you don't have to but it helps with activating window
 1. Set up a new channels with appropriate name (i.e. #tribe-log, #online-log, ...) or just one if you like it that way, the bot will automatically put the right caption for the content it is sending to that webhook
-2. Now go into _**Server's Setting > Integrations > Create Webhook**_ and set up webhook for the #text-channels and copy and paste them into the bot window 
+2. Now go into _**Server's Setting > Integrations > Create Webhook**_ and set up webhook for the #text-channels
 
-![Webhook](https://user-images.githubusercontent.com/12405800/132083505-7d4876ca-118b-401a-920b-afd806583809.png) 
+<img src="https://support.discord.com/hc/article_attachments/1500000463501/Screen_Shot_2020-12-15_at_4.41.53_PM.png" width="500" height="auto" />
 
-4. Now click "Test" to make sure the Webhook is valid, and then lock it to prevent unintended changes
-5. If the messages were sent successfully, you're now ready. Press the start button (F1 is default) to start the bot. 
+3. Copy and paste them into the script GUI
+
+<img src="https://user-images.githubusercontent.com/12405800/135339823-7498e397-22c9-4c75-89bd-362ad4e71a68.png" width="420" height="auto" />
+<img src="https://user-images.githubusercontent.com/12405800/132083505-7d4876ca-118b-401a-920b-afd806583809.png" width="420" height="auto" />
+
+4. Click "Test" to make sure the Webhook is valid, and then lock it to prevent unintended changes
+5. If the messages were sent successfully, you're ready, click START.
   - (The bot will run the game and log into the game if it can't find Ark client and will automatically connect into the game for you from menu screen)
 
-## Other Setting
-1. From here change the setting for the bot to how you see fit
+## <a name="setting"/> Setting
 
-![features](https://user-images.githubusercontent.com/12405800/132083729-d49b580e-e9db-4331-af50-03ac0c4e525a.png)
-
-- _**Event to send**_
+- _**Tribe Log - Event to send**_
   -  Uncheck any boxes that you would like to **NOT** get notify about
-  -  note: everything that is not recognize by the bot will appear as cryo event (i.e. Member add, member promote, etc.. so i advise you to not uncheck cryo event, you may uncheck it if all you need are Red(death/destroyed), Green(sensor), and Purple(kill) alert )
+  -  note: everything that is not recognize by the bot will appear as cryo event (i.e. Member add, member promote, tribe destroy, etc.. so i advise you to not uncheck cryo event, you may uncheck it if all you need are Red(death/destroyed), Green(sensor), and Purple(kill) alert )
 - _**Global Chat**_ 
-   - Send a cropped picture of chat log every # minutes
-   - note: mute this channel and only check it as needed because of low interval, it can get pretty annoying
+   - Send a cropped picture of chat log upon new activities
 - _**Online Log**_ 
   -  Send a cropped picture of member inside tribelog every # minutes 
-  -  note: same as above, mute this channel as well. Only need to check it if you want to investigate member online time, you may limit the #text-channel to just the leaders of the tribe
+  -  note: mute this channel because you only need to check it if you need to investigate member online time, you may limit the #text-channel to just the leaders of the tribe
 - _**Screen Check**_ 
-  -  Send a full screenshot for easier debug or to check if the bot still working - same with this, it's only need if you want to check if the bot is still running
+  -  Send a full screenshot every # minutes to check if the bot still working - mute this channel as well
 - _**Play sound to channel on parasaur alert**_ 
-  -  When this is checked, on parasaur alert, the bot will switch window to discord and type ?loop alarm to start looping a soundtrack in the voice channel the discord user is currently in
-  - This require a bit set up on the SoundFX Discord Bot https://top.gg/bot/430384808200372245
-  - You need to invite this bot into your channel
+  -  When this is checked, on parasaur alert, the bot will switch to discord window and type to start looping a soundtrack in the voice channel the discord bot is currently in so make sure you joined the voice channel before start the bot
+  - You need to invite Tempo bot into your channel for this feature to work https://tempobot.net/
 
-![upload file](https://user-images.githubusercontent.com/12405800/132173810-bce0251c-d1dd-4bfe-9ad1-8cb6b7c748df.PNG)
-![upload2](https://user-images.githubusercontent.com/12405800/132173939-ebd68615-0ed9-4cfe-a1c1-e6499c41356a.PNG)
-
-
-  - Upload a small duration soundtrack of beeping sound of alarm or whatever you choose via the SoundFX bot command, and name it "alarm", I will include an alarm soundtrack inside LogBotPlus.rar
-  - Now just leave the discord window in the background and start the bot, on parasaur alert, it will switch to Discord window and type "?loop alarm" to loop the sound track that you uploaded
-  - Anyone in the discord (you don't need to be in voice to do this) can type "?stop" to stop the annoying beeping sound or it will auto stop after 15 minutes
-  - *Me and my tribemates usually sleep or chill near our device and have it on max volume and joined in the voice channel. Everyone in the voice channel can hear the alarm and respond as soon as they hear it*
-2. For this section, it is for the bot to monitor server's online status and population via battlemetric, you don't have to fill it if you don't need it
-
-![Server](https://user-images.githubusercontent.com/12405800/132084181-60b51a2c-6881-491d-9a16-1022dc7b0b00.png)
+- _**Server**_
+  - Track server's online status and population 
 
 How To Get Your Server's ID On Battlemetric
 - Google your server name + battlemetric at the end for example
@@ -102,25 +92,36 @@ How To Get Your Server's ID On Battlemetric
 
 ![serverid](https://user-images.githubusercontent.com/12405800/132084285-004bfa6d-6f97-47b1-a21a-2118921344b0.png)
 
-## Demo
+## <a name="setting"/> Note
+## <a name="setting"/> FAQ
+## <a name="setting"/> Change log
+2.7.2
+- Changed from SoundFX bot to Tempo bot
+- Fixed global chat not sending
+- Removed interval dropdownmenu from global chat
+- Changed population tracking to send from #tribe-log to #online-log
 
-Tribe Log 
+2.7.1
+- Fixed bug where bot "can't find tribe log" when activating discord window
+- Fixed bug when script failed to get current UTC and paused the script
+- Fixed sound alert within time frame not working
+- Changed back to SoundFX because Youtube decided to shutdown Rythm and Groovy
+- Change global chat cooldown to 6 seconds
+- Changed YoutubeURL field to sound ID
+- Changed Start to button instead of hotkey
+- Added exit hotkey to quickly terminate the script to use PC resources for emergency like defending base
+- Added minutes & second to downtime
+- Removed global chat interval, global chat feature now send to discord on new activity
 
-![demo](https://user-images.githubusercontent.com/12405800/132084402-fb406f92-1676-4851-a7d2-f30ed530a11c.png)
-
-Parasour Alert - play sound on voice channel
-
-![loopalarm](https://user-images.githubusercontent.com/12405800/132085254-99a58272-9665-48d8-a296-7a1a6af4a64a.png)
-
-Global Chat Log
-
-![globalchat](https://user-images.githubusercontent.com/12405800/132084450-1809f0b9-deb5-469f-923a-9b391af92a97.png)
-
-Online Log
-
-![onlinelog](https://user-images.githubusercontent.com/12405800/132084475-71afa1f7-fcc4-4f37-a477-6e0c8839688b.png)
-
-Screen Check
-
-![screen check](https://user-images.githubusercontent.com/12405800/132084509-43bafb87-45b5-4220-a267-330d8e324e70.png)
-
+2.7.0
+- Added check window active before scanning to prevent script from scanning while sending !play on discord window
+- Added Customizable track to play on sound alert using Youtube URL
+- Added population to the Server info groupbox
+- Added 'Sound Alert' groupbox in GUI that come with
+ + Population Alert
+ + Sound Alert on events
+- Redone Global Chat feature (now only take picture when someone talk on global instead of periodically)
+- Moved parasaur alert checkbox to its related Groupbox
+- Removed t.maxfps 15 to console after connect to ingame, instead make it default FPS in Engine.ini of ARK file
+- Changed from 'SoundFX' to a more reliable bot 'Rythm'
+- Improved relog algorithm
