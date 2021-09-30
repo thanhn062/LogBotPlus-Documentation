@@ -26,6 +26,8 @@
 
 __These features can be turn off__
 
+Discord Server: https://discord.gg/G9tcWccE
+
 ## <a name="pictures"/> Pictures
 <img src="https://user-images.githubusercontent.com/12405800/133885544-2c93c779-72b0-4405-92af-594cfc1a1bb3.png" width="420" height="auto" />
 <img src="https://user-images.githubusercontent.com/12405800/133885554-6e85856a-7079-467f-a0f3-4ecfe898dc8d.png" width="420" height="auto" />
