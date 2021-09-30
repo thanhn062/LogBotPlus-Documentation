@@ -58,7 +58,7 @@ __These features can be turn off__
   - ⎣📊⎤ᴏɴʟɪɴᴇ ʟᴏɢ
   - ⎣📺⎤ꜱᴄʀᴇᴇɴ ᴄʜᴇᴄᴋ
   - ⎣📖⎤ʙᴏᴏᴋᴍᴀʀᴋ
-    + copy message link from other text channels and paste it here to bookmark an important message
+    + copy message/media link from other text channels and paste it here to bookmark an important message
 2. Now go into _**Server's Setting > Integrations > Create Webhook**_ and set up webhook for the #text-channels
 
 <img src="https://support.discord.com/hc/article_attachments/1500000463501/Screen_Shot_2020-12-15_at_4.41.53_PM.png" width="500" height="auto" />
