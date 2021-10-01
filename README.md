@@ -110,6 +110,7 @@ Discord Server: https://discord.gg/G9tcWccE
   - Use a survivor with Tek Pod unlocked
   - Set gamma to default by typing "gamma" into console, so it wouldn't confuse the bot
   - If you want to run it on a different device, deregister on the old device and register on the new device
+  - Set up teamviewer on the bot device and make a text channel with the teamview login info so anyone in your tribe can restart the bot if anything happen
 ## <a name="faq"/> FAQ
   - *Why is global chat keep getting the same message constantly ?*
   - Turn on chat auto-hide if you have it disabled
