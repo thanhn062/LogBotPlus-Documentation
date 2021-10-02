@@ -27,6 +27,7 @@
 __These features can be turn off__
 
 Discord Server: https://discord.gg/G9tcWccE
+You can download the bot here in my Discord Autohotkey Shop
 
 ## <a name="pictures"/> Pictures
 <img src="https://user-images.githubusercontent.com/12405800/133885544-2c93c779-72b0-4405-92af-594cfc1a1bb3.png" width="420" height="auto" />
@@ -45,12 +46,12 @@ Discord Server: https://discord.gg/G9tcWccE
   + Autohotkey.exe
     + Official Autohotkey.exe from autohotkey installer 
   + Autohotkey.ahk
-    + LogBotPlus 2.7.2.ahk - encrypted version produced by FeiYu Encryptor - reviewed by 
-    + Hash:
-    + Virustotal link:
-
+    + LogBotPlus 2.7.2.ahk - encrypted version produced by FeiYu Encryptor - reviewed by Joe & Maestrith
+    + Hash: 98e89b9abf2a9752689996c87907784f5d47856fa3499f86f58ad3d6aef9ae15
+    + Virustotal link: https://www.virustotal.com/gui/file/98e89b9abf2a9752689996c87907784f5d47856fa3499f86f58ad3d6aef9ae15
 
 ## <a name="review"/> Code Review 
+https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 
 ## <a name="setup"/> Setup 
 
