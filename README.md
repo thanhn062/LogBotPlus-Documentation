@@ -53,6 +53,7 @@ You can download the bot here in my Discord Autohotkey Shop
 ## <a name="review"/> Code Review 
 https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 
+- You're more than welcome to look Joe Glines up on google if you have a question about his credibility.
 ## <a name="setup"/> Setup 
 
 1. Set up the text channels, here are some that I made for my tribe discord
