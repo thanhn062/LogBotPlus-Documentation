@@ -26,7 +26,7 @@
 
 __These features can be turn off__
 
-Discord Server: https://discord.gg/G9tcWccE
+Discord Server: https://discord.gg/zfRndj5Rn5
 You can download the bot here in my Discord Autohotkey Shop
 
 ## <a name="pictures"/> Pictures
