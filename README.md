@@ -113,12 +113,20 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
   - Set gamma to default by typing "gamma" into console, so it wouldn't confuse the bot
   - If you want to run it on a different device, deregister on the old device and register on the new device
   - Set up teamviewer on the bot device and make a text channel with the teamview login info so anyone in your tribe can restart the bot if anything happen
+  - If your bot stuck on menu screen on disconnect, try to run as admin
+  - Population track usually have a 10 minutes delay due to battlemetric API limit
+  - Mute Tempo bot while you're online and unmute when you're AFK or sleep
+  - Customize your own discord message in setting.ini
 ## <a name="faq"/> FAQ
   - *Why is global chat keep getting the same message constantly ?*
   - Turn on chat auto-hide if you have it disabled
   - *Why is the bot keep sending the same events to tribe log constantly ?*
   - Turn off the bot (F1), press Esc to exit tribe log and move the mouse to change the view camera of the character and then start again. This is a bug that I was not be able to fix but it rarely happens due to some pixels of the game on the screen confused the bot
 ## <a name="changelog"/> Change log
+2.7.3 Change log
+- Added debug.txt
+- Switched from API call to NTP server for time sync
+- Patched not responding bot client due to slow API request
 2.7.2
 - Changed from SoundFX bot to Tempo bot
 - Fixed global chat not sending
