@@ -127,6 +127,7 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 - Added debug.txt
 - Switched from API call to NTP server for time sync
 - Patched not responding bot client due to slow API request
+
 2.7.2
 - Changed from SoundFX bot to Tempo bot
 - Fixed global chat not sending
