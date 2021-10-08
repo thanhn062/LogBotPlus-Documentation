@@ -105,6 +105,7 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 ![serverid](https://user-images.githubusercontent.com/12405800/132084285-004bfa6d-6f97-47b1-a21a-2118921344b0.png)
 
 ## <a name="note"/> Note
+  - Must be in Fullscreen Window mode
   - Set the default fps to 15 to reduce the stress on your device
   https://steamcommunity.com/sharedfiles/filedetails/?id=786486980
   - Optimize the discord client to not display image attachment
@@ -114,7 +115,7 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
   - If you want to run it on a different device, deregister on the old device and register on the new device
   - Set up teamviewer on the bot device and make a text channel with the teamview login info so anyone in your tribe can restart the bot if anything happen
   - If your bot stuck on menu screen on disconnect, try to run as admin
-  - Population track usually have a 10 minutes delay due to battlemetric API limit
+  - Population track feature usually have a 10 minutes delay due to battlemetric API limit
   - Mute Tempo bot while you're online and unmute when you're AFK or sleep
   - Customize your own discord message in setting.ini
 ## <a name="faq"/> FAQ
@@ -123,9 +124,17 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
   - *Why is the bot keep sending the same events to tribe log constantly ?*
   - Turn off the bot (F1), press Esc to exit tribe log and move the mouse to change the view camera of the character and then start again. This is a bug that I was not be able to fix but it rarely happens due to some pixels of the game on the screen confused the bot
 ## <a name="changelog"/> Change log
-2.7.3 Change log
-- Added debug.txt
-- Switched from API call to NTP server for time sync
+2.7.4
+- Added more detailed debug log
+- Support auto-reconnect for global font
+- Patched "recv() indicated Winsock error 10060" bug
+- Event color now can be read and configure from setting.ini
+- Improved auto-connect algorithm
+- Reduce API calls for license info
+
+2.7.3
+- Added debug log
+- Switched from API call to NTP server to sync time
 - Patched not responding bot client due to slow API request
 
 2.7.2
@@ -137,24 +146,24 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 2.7.1
 - Fixed bug where bot "can't find tribe log" when activating discord window
 - Fixed bug when script failed to get current UTC and paused the script
-- Fixed sound alert within time frame not working
+- Fixed sound alert within a time frame not working
 - Changed back to SoundFX because Youtube decided to shutdown Rythm and Groovy
 - Change global chat cooldown to 6 seconds
 - Changed YoutubeURL field to sound ID
-- Changed Start to button instead of hotkey
-- Added exit hotkey to quickly terminate the script to use PC resources for emergency like defending base
-- Added minutes & second to downtime
+- Changed Start to a button instead of hotkey
+- Added exit hotkey to quickly terminate the script to use PC resources for an emergency like defending the base
+- Added minutes & seconds to downtime
 - Removed global chat interval, global chat feature now send to discord on new activity
 
 2.7.0
-- Added check window active before scanning to prevent script from scanning while sending !play on discord window
+- Added check window active before scanning to prevent the script from scanning while sending !play on discord window
 - Added Customizable track to play on sound alert using Youtube URL
 - Added population to the Server info groupbox
 - Added 'Sound Alert' groupbox in GUI that come with
  + Population Alert
  + Sound Alert on events
-- Redone Global Chat feature (now only take picture when someone talk on global instead of periodically)
+- Redone Global Chat feature (now only take a picture when someone talks on global instead of periodically)
 - Moved parasaur alert checkbox to its related Groupbox
-- Removed t.maxfps 15 to console after connect to ingame, instead make it default FPS in Engine.ini of ARK file
+- Removed t.maxfps 15 to console after connecting to the game, instead make it default FPS in Engine.ini of ARK file
 - Changed from 'SoundFX' to a more reliable bot 'Rythm'
 - Improved relog algorithm
