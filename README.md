@@ -125,7 +125,7 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
   - Turn off the bot (F1), press Esc to exit tribe log and move the mouse to change the view camera of the character and then start again. This is a bug that I was not be able to fix but it rarely happens due to some pixels of the game on the screen confused the bot
 ## <a name="changelog"/> Change log
 2.7.5
-- Debug feature can be turn on / off
+- Debug feature can be turn on / off inside setting.ini under [Feature] section
 
 2.7.4
 - Added more detailed debug log
