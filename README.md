@@ -126,6 +126,7 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
   - Turn off the bot (F1), press Esc to exit tribe log and move the mouse to change the view camera of the character and then start again. This is a bug that I was not be able to fix but it rarely happens due to some pixels of the game on the screen confused the bot
 
 *Why the bot say "CANT FIND TRIBE LOG" when the tribe log is visible on the screen?*
+  - Turn off game filter or shader or any program that alter the original color of ark user interface.
   - Try reset gamma to default first and try again, if that didn't work, it is most likely due to the pixels on the screen. Your screen color profile might be different than most, just create a ticket and I can help you out.
 ## <a name="changelog"/> Change log
 2.7.5
