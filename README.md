@@ -119,11 +119,13 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
   - Mute Tempo bot while you're online and unmute when you're AFK or sleep
   - Customize your own discord message in setting.ini
 ## <a name="faq"/> FAQ
-  - *Why is global chat keep getting the same message constantly ?*
+*Why is global chat keep getting the same message constantly ?*
   - Turn on chat auto-hide if you have it disabled
-  - *Why is the bot keep sending the same events to tribe log constantly ?*
+
+*Why is the bot keep sending the same events to tribe log constantly ?*
   - Turn off the bot (F1), press Esc to exit tribe log and move the mouse to change the view camera of the character and then start again. This is a bug that I was not be able to fix but it rarely happens due to some pixels of the game on the screen confused the bot
-  - *Why the bot say "CANT FIND TRIBE LOG" when the tribe log is visible on the screen?*
+
+*Why the bot say "CANT FIND TRIBE LOG" when the tribe log is visible on the screen?*
   - Try reset gamma to default first and try again, if that didn't work, it is most likely due to the pixels on the screen. Your screen color profile might be different than most, just create a ticket and I can help you out.
 ## <a name="changelog"/> Change log
 2.7.5
