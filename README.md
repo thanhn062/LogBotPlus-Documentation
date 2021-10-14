@@ -83,7 +83,7 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
   -  Uncheck any event that you would like to **NOT** get notify
   -  note: Other insignificant events that is not recognize by the bot will appear as cryo event (i.e. Member add, member promote, tribe destroy, etc.. .You may uncheck it if all you need are Red(death/destroyed), Green(sensor), and Purple(kill) alert )
 - _**Global Chat**_ 
-   - Send a cropped picture of chat log upon new activities
+   - Send a cropped picture of chat log upon new activities (exclude tribemember message)
 - _**Online Log**_
   -  Send a cropped picture of member inside tribelog every # minutes 
 - _**Screen Check**_
