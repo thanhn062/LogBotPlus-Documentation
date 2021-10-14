@@ -46,11 +46,11 @@ You can download the bot here in my Discord Autohotkey Shop
   + Autohotkey.exe
     + Official Autohotkey.exe from autohotkey installer 
   + Autohotkey.ahk
-    + LogBotPlus 2.7.5.ahk - encrypted version produced by FeiYu Encryptor - reviewed by Joe & Maestrith
-    + Hash: 00339a0e0e7e2596a78235c826b564bf63fb698fc314c96e01813721a03ce634
-    + Virustotal link: https://www.virustotal.com/gui/file/00339a0e0e7e2596a78235c826b564bf63fb698fc314c96e01813721a03ce634
+    + LogBotPlus 2.7.6.ahk - encrypted version produced by FeiYu Encryptor
+    + Hash: 3aa9ad29a48f2f515826052f3107e5c2ef050429d798b016fb2389700ed09ec9
+    + Virustotal link: https://www.virustotal.com/gui/file/3aa9ad29a48f2f515826052f3107e5c2ef050429d798b016fb2389700ed09ec9
 
-## <a name="review"/> Code Review 
+## <a name="review"/> Code Review by Joe & Maestrith (Autohotkey Guru)
 https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 
 - You're more than welcome to look up Joe Glines on google if you have any question about his credibility.
