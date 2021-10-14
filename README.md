@@ -47,9 +47,9 @@ You can download the bot here in my Discord Autohotkey Shop
   + Autohotkey.exe
     + Official Autohotkey.exe from autohotkey installer 
   + Autohotkey.ahk
-    + LogBotPlus 2.7.6.ahk - encrypted version produced by FeiYu Encryptor
-    + Hash: 3aa9ad29a48f2f515826052f3107e5c2ef050429d798b016fb2389700ed09ec9
-    + Virustotal link: https://www.virustotal.com/gui/file/3aa9ad29a48f2f515826052f3107e5c2ef050429d798b016fb2389700ed09ec9
+    + LogBotPlus 2.7.7.ahk - encrypted version produced by FeiYu Encryptor
+    + Hash: c61d6bd004be302f831e9b6986f7f82a7aae17716c111172e374773778c5444b
+    + Virustotal link: https://www.virustotal.com/gui/file/c61d6bd004be302f831e9b6986f7f82a7aae17716c111172e374773778c5444b
 
 ## <a name="review"/> Code Review by Joe & Maestrith (Autohotkey Guru)
 https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
@@ -136,6 +136,9 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 
 
 ## <a name="changelog"/> Change log
+2.7.7
+- Fixed sound alert loop not working
+
 2.7.6
 - Removed tray icon
 - Added loop checkbox into sound alert
