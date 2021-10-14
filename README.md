@@ -1,7 +1,8 @@
 # LogBotPlus-Documentation
-<img src="https://user-images.githubusercontent.com/12405800/132085422-46bc6e00-a02e-4f95-848c-c9e74f581238.png" width="300" height="300" /><img src="https://user-images.githubusercontent.com/12405800/133882456-f1b49d13-fea5-46a6-b9b8-8fe432ad8678.jpg" width="300" height="auto" /><img src="https://user-images.githubusercontent.com/12405800/133882760-c4ce30d0-4ebf-457f-a262-4170fd47e9c8.png" width="420" height="auto" />
+<img src="https://user-images.githubusercontent.com/12405800/132085422-46bc6e00-a02e-4f95-848c-c9e74f581238.png" width="300" height="300" /><img src="https://user-images.githubusercontent.com/12405800/133882456-f1b49d13-fea5-46a6-b9b8-8fe432ad8678.jpg" width="300" height="auto" /><img src="https://user-images.githubusercontent.com/12405800/137245516-f749e34b-b708-4c96-99fb-9cf6f252502b.png" width="420" height="auto" />
 
 #### Table of Contents
+
 1. [About](#about)
 2. [Pictures](#pictures)
 3. [Files Info](#info)
