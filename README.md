@@ -135,6 +135,16 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 
 
 ## <a name="changelog"/> Change log
+2.7.6
+- Remove tray icon
+- Added loop checkbox into sound alert
+- Fixed wrong notification text
+- Fixed population doesn't update on entering Battlemetric ID
+- Fixed text display on GUI
+- Fixed accidental enter on ark client
+- Changed to send window screenshot (Alt+Printscreen) on parasaur instead of sending full screenshot (Printscreen)
+- Added parasaur to 'Event to send' checkbox list
+
 2.7.5
 - Debug feature can be turn on / off inside setting.ini under [Feature] section
 
