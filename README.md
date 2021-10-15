@@ -36,7 +36,7 @@ You can download the bot here in my Discord Autohotkey Shop
 <img src="https://user-images.githubusercontent.com/12405800/133885548-be1a4042-6ae2-4818-8697-605466e87bd7.png" width="420" height="auto" />
 <img src="https://user-images.githubusercontent.com/12405800/133885556-06958185-5576-4b6c-9453-a977b57a9ec2.png" width="420" height="auto" />
 <img src="https://user-images.githubusercontent.com/12405800/133885559-9a3614b5-834e-411a-a7f5-2ed46017107b.png" width="420" height="auto" />
-
+<img src="https://user-images.githubusercontent.com/12405800/137561903-8d3e2b2a-b542-4191-a1ce-66e45b4c966b.png" width="420" height="auto" />
 
 ## <a name="info"/> Files Content & Info 
 - LogBotPlus.rar
@@ -78,33 +78,20 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
   - The bot will run the game and log into the game if it can't find Ark client and will automatically connect to the game for you from menu screen
 
 ## <a name="setting"/> Setting
-
-- _**Tribe Log - Event to send**_
-  -  Uncheck any event that you would like to **NOT** get notify
-  -  note: Other insignificant events that are not recognized by the bot will appear as cryo event (i.e. Member add, member promote, tribe destroy, etc.. .You may uncheck it if all you need are Red(death/destroyed), Green(sensor), and Purple(kill) alert )
-- _**Global Chat**_ 
-   - Send a cropped picture of chat log upon new activities (exclude tribe member message)
-- _**Online Log**_
-  -  Send a cropped picture of members inside tribe log every # minutes 
-- _**Screen Check**_
-  -  Send a full screenshot every # minutes to check the bot screen
-- _**Sound Alert**_ 
-  - You need to invite [Tempo](https://tempobot.net/) bot into your channel for this feature
-  - For this feature, the bot will switch to discord window and type to start looping a song in the voice channel the discord bot is currently in so make sure you joined the voice channel before starting the bot and do not close the window to task tray
-  -  On parasaur alert - play a song on parasaur alert
-  -  On every # events - play a song when the sum of new events of kill, death, sensor go past the threshold 
-  -  Within # minutes - play a song when the sum of new events of kill, death, sensor go past threshold WITHIN the time frame
-- _**Server**_
-  - Track server's online status and population 
-  - Adjust it to 0 to disable
-
+| Setting | Note |
+|-|-|
+| _**Tribe Log - Event to send**_|Uncheck any event that you would like to **NOT** get notify <br><br> *Other insignificant events that are not recognized by the bot will appear as cryo event (i.e. Member add, member promote, tribe destroy, etc.. .You may uncheck it if all you need are Red(death/destroyed), Green(sensor), and Purple(kill) alert )*|
+| _**Global Chat**_ | Send a cropped picture of chat log upon new activities (exclude tribe member message)|
+| _**Online Log**_ | Send a cropped picture of members inside tribe log every # minute |
+| _**Screen Check**_ | Send a full screenshot every # minutes to check the bot screen|
+| _**Sound Alert**_ | You need to invite [Tempo](https://tempobot.net/) bot into your channel for this feature <br><br> *For this feature, the bot will switch to discord window and type to start looping a song in the voice channel the discord bot is currently in so make sure you joined the voice channel before starting the bot and do not close the window to task tray* <br><br> On parasaur alert - play a song on parasaur alert<br> On every # events - play a song when the sum of new events of kill, death, sensor go past the threshold <br> Within # minutes - play a song when the sum of new events of kill, death, sensor go past threshold WITHIN the time frame|
+| _**Server**_ | Track server's online status and population <br> *Adjust it to 0 to disable*|
+| _**@Mention**_ | Conditional @mention users and roles with similiar setting to Sound Alert|
 - __How To Get Your Server's ID On Battlemetric__
   - Google your server name + battlemetric at the end for example
   - "smalltribes14 battlemetric"
   - Click the first link and this will be your Battlemetric server's ID, paste it into the client
- 
-- _**@Mention**_
-  - Conditional @mention users and roles 
+![serverid](https://user-images.githubusercontent.com/12405800/137557838-34d196e6-746f-4882-aafe-5a22f412f426.png)
 
 - __How To Get Roles ID & user ID for @mention feature__
 
