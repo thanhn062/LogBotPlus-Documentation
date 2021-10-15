@@ -119,7 +119,7 @@ Go to Advanced and turn on Developer Mode
 Right click on the user you want to mention and click Copy ID then paste it into the bot user interface
 <img src="https://user-images.githubusercontent.com/12405800/137546764-a226c583-ced9-41c8-8bf7-09bdc68f48f9.png" width="420" height="auto" />
 
-For @role you need to type in \@<role name> and copy the number + the ampersand(&) and then paste it into the bot user interface
+For @role you need to type in \\@\<role name\> and copy the number + the ampersand(&) and then paste it into the bot user interface
  ![roleID](https://user-images.githubusercontent.com/12405800/137547199-7643a566-514f-4073-b348-7fb567ddd5a4.png)
 
 *@mention IDs must be separate by commas (,)*
