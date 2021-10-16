@@ -3,15 +3,15 @@
 
 #### Table of Contents
 
-1. [About](#about)
-2. [Pictures](#pictures)
-3. [Files Info](#info)
-4. [Code Review](#review)
-5. [Setup](#setup)
-6. [Setting](#setting)
-7. [Note](#note)
-8. [FAQ](#faq)
-9. [Change Log](#changelog)
+- [About](#about)
+- [Pictures](#pictures)
+- [Files Info](#info)
+- [Code Review](#review)
+- [Setup](#setup)
+- [Setting](#setting)
+- [Note](#note)
+- [FAQ](#faq)
+- [Change Log](#changelog)
 ##
 ## <a name="about"/> About 
 
