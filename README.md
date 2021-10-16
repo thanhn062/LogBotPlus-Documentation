@@ -92,7 +92,8 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 - __How To Get Your Server's ID On Battlemetric__
   - Google your server name + battlemetric at the end for example
   - "smalltribes14 battlemetric"
-  - Click the first link and this will be your Battlemetric server's ID, paste it into the client
+  - Click the first link and this will be your Battlemetric server's ID, paste it into the client 
+ 
 ![serverid](https://user-images.githubusercontent.com/12405800/137557838-34d196e6-746f-4882-aafe-5a22f412f426.png)
 
 - __How To Get Roles ID & user ID for @mention feature__
