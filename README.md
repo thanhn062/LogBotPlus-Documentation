@@ -30,6 +30,7 @@ __These features can be turn off__
 - You can download the bot here in my Discord Server
  - Discord Server: https://discord.gg/zfRndj5Rn5
 - Youtube Video Demonstration: https://youtu.be/2yn08eq7O90
+- Youtube 2 Minutes Setup Guide: https://youtu.be/Vi7PxXmVmQU
 
 
 ## <a name="pictures"/> Pictures
