@@ -50,7 +50,7 @@ __These features can be turn off__
   + Autohotkey.exe
     + Official Autohotkey.exe from autohotkey installer 
   + Autohotkey.ahk
-    + LogBotPlus 2.7.8.ahk - encrypted version produced by FeiYu Encryptor
+    + LogBotPlus 2.7.8.ahk - encrypted
     + Hash: 47620a8cf8f86195f4a891acb7364f502871ff0096c159d5f39ea87bfac9a9e3
     + Virustotal link: https://www.virustotal.com/gui/file/47620a8cf8f86195f4a891acb7364f502871ff0096c159d5f39ea87bfac9a9e3
 
