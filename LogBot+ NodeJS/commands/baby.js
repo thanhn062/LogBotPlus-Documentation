@@ -47,8 +47,8 @@ module.exports = {
     }
     else // Timer more than 1 hour
     {
-      hour = hour.substring(0, hour.length - 1);
-      minute = minute.substring(0, minute.length - 1);
+      hour = hour.toString().substring(0, hour.length - 1);
+      minute = minute.toString().substring(0, minute.length - 1);
     }
     // Create baby timer object
     let baby = {
