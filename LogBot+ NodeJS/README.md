@@ -26,7 +26,7 @@ __LogBot commands__
   - __soundon__ - Turn on logbot sound alert
   - __global__ `message` - Chat on global from your logbot
     - Show your presence on the server and good to use as a scare tactic because most people wouldn't raid when they know you're actively playing and not streaming log.
-  - __global__ `message` - Chat in tribe from your logbot
+  - __tribe__ `message` - Chat in tribe from your logbot
 ___
 __Tek Generator commands__
   - __/tekgen__
@@ -83,3 +83,5 @@ or
     - __list__ - Display list of baby timers
     - __delete__ `id` - Delete a baby timer by ID
       - *example*: `/baby delete 1`
+---
+*NOTE: Please do not set __ALL__ tek generators or forcefield element the same as that is counter productive. Lessen the work load by spacing out element amount for example: TekGen#1 = 1000, TekGen#2 = 900, TekGen#3 = 800 so it will take turn running out instead of all run out at the same time which will make the bot uselss*
