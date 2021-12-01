@@ -32,7 +32,22 @@ module.exports = {
         let minuteLeft = Math.floor(timeLeft/60000);
         let hourLeft = Math.floor(minuteLeft/60);
         let remainderMinute = minuteLeft%60;
-        msg.channel.send("```Baby "+ babyList[i].name +": "+hourLeft+"h "+remainderMinute+"m```");
+        msg.channel.send("```"+i+" Baby "+ babyList[i].name +": "+hourLeft+"h "+remainderMinute+"m```");
+      }
+      return;
+    }
+    else if (name == "delete")
+    {
+      // Delete it out of database
+      babyList.splice(args[1],1);
+      // Write data into text file
+      babyList = JSON.stringify(babyList);
+      try {
+        const data = fs.writeFileSync('babyList.json', babyList);
+        //file written successfully
+        msg.channel.send("```Baby "+ babyList[i].name +" deleted.```");
+      } catch (err) {
+        console.error(err);
       }
       return;
     }
