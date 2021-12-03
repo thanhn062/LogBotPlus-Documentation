@@ -1,5 +1,5 @@
 # LogBotPlus-Documentation
-<img src="https://user-images.githubusercontent.com/12405800/132085422-46bc6e00-a02e-4f95-848c-c9e74f581238.png" width="300" height="300" /><img src="https://user-images.githubusercontent.com/12405800/133882456-f1b49d13-fea5-46a6-b9b8-8fe432ad8678.jpg" width="300" height="auto" /><img src="https://user-images.githubusercontent.com/12405800/137545623-3359289b-cd88-4387-881b-4d7610214338.png" width="420" height="auto" />
+<img src="https://user-images.githubusercontent.com/12405800/132085422-46bc6e00-a02e-4f95-848c-c9e74f581238.png" width="300" height="300" /><img src="https://user-images.githubusercontent.com/12405800/133882456-f1b49d13-fea5-46a6-b9b8-8fe432ad8678.jpg" width="300" height="auto" /><img src="https://user-images.githubusercontent.com/12405800/144527923-6476bcc8-4e16-4c1d-be94-d11d8f0c9403.png" width="420" height="auto" /><img src="https://user-images.githubusercontent.com/12405800/144527935-8ddf9949-d51b-476a-9111-c8a08988f591.png" width="420" height="auto" />
 
 #### Table of Contents
 
@@ -9,6 +9,7 @@
 - [Code Review](#review)
 - [Setup](#setup)
 - [Setting](#setting)
+- [Other Setting](#othersetting)
 - [Note](#note)
 - [FAQ](#faq)
 - [Change Log](#changelog)
@@ -24,6 +25,7 @@
 - __*Send a full screenshot on parasaur alert*__ and play a song of your choice to the voice channel
 - __*Play a song to voice channel when the number of new events go above the threshold*__ or if the number of new events go above the threshold WITHIN the set timeframe
 - __*Track server's population*__ when it goes past the set threshold
+- __*Talk on global chat & tribe chat from Discord*__
 
 __These features can be turn off__
 
@@ -50,9 +52,7 @@ __These features can be turn off__
   + Autohotkey.exe
     + Official Autohotkey.exe from autohotkey installer
   + Autohotkey.ahk
-    + LogBotPlus 2.7.8.ahk - encrypted
-    + Hash: 47620a8cf8f86195f4a891acb7364f502871ff0096c159d5f39ea87bfac9a9e3
-    + Virustotal link: https://www.virustotal.com/gui/file/47620a8cf8f86195f4a891acb7364f502871ff0096c159d5f39ea87bfac9a9e3
+    + LogBot+ 2.8.1.ahk (encrypted)
 
 ## <a name="review"/> Code Review by Joe & Maestrith (Autohotkey Guru)
 https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
@@ -90,13 +90,14 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 | _**Sound Alert**_ | You need to invite [Tempo](https://tempobot.net/) bot into your channel for this feature <br><br> *For this feature, the bot will switch to discord window and type to start looping a song in the voice channel the discord bot is currently in so make sure you joined the voice channel before starting the bot and do not close the window to task tray* <br><br> On parasaur alert - play a song on parasaur alert<br> On every # events - play a song when the sum of new events of kill, death, sensor go past the threshold <br> Within # minutes - play a song when the sum of new events of kill, death, sensor go past threshold WITHIN the time frame|
 | _**Server**_ | Track server's online status and population <br> *Adjust it to 0 to disable*|
 | _**@Mention**_ | Conditional @mention users and roles with similiar setting to Sound Alert|
+___
 - __How To Get Your Server's ID On Battlemetric__
   - Google your server name + battlemetric at the end for example
   - "smalltribes14 battlemetric"
   - Click the first link and this will be your Battlemetric server's ID, paste it into the client
 
 ![serverid](https://user-images.githubusercontent.com/12405800/137557838-34d196e6-746f-4882-aafe-5a22f412f426.png)
-
+___
 - __How To Get Roles ID & user ID for @mention feature__
 
 Turn on Developer mode by going into User Setting
@@ -115,6 +116,12 @@ For @role you need to type in \\@\<role name\> and copy the number + the ampersa
 
 *@mention IDs must be separate by commas (,)*
 
+## <a name="othersetting"/> Other Setting
+| Setting | Note |
+|-|-|
+|Log Bot+ NodeJS Discord Path|Path to folder of Log Bot+ Discord bot |
+|Reconnect UI Data (powered by FeiYue FindText)| capture and contain text pattern data for ark user interface|
+|Event Color n Shades|To define event colors and it's variant for script to search|
 ## <a name="note"/> Note
   - Must be in Fullscreen Window mode
   - Set the default fps to 15 to reduce the stress on your device
