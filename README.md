@@ -13,7 +13,7 @@
 - [FAQ](#faq)
 - [Change Log](#changelog)
 ##
-## <a name="about"/> About 
+## <a name="about"/> About
 
 #### What can this bot do?
 - __*Auto reconnect*__ when server crash and on an update that doesn't require client update
@@ -41,14 +41,14 @@ __These features can be turn off__
 <img src="https://user-images.githubusercontent.com/12405800/133885559-9a3614b5-834e-411a-a7f5-2ed46017107b.png" width="420" height="auto" />
 <img src="https://user-images.githubusercontent.com/12405800/137561903-8d3e2b2a-b542-4191-a1ce-66e45b4c966b.png" width="420" height="auto" />
 
-## <a name="info"/> Files Content & Info 
+## <a name="info"/> Files Content & Info
 - LogBotPlus.rar
   + logbotplus.png
     + Splash image
   + setting.ini
     + Data
   + Autohotkey.exe
-    + Official Autohotkey.exe from autohotkey installer 
+    + Official Autohotkey.exe from autohotkey installer
   + Autohotkey.ahk
     + LogBotPlus 2.7.8.ahk - encrypted
     + Hash: 47620a8cf8f86195f4a891acb7364f502871ff0096c159d5f39ea87bfac9a9e3
@@ -58,7 +58,7 @@ __These features can be turn off__
 https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 
 - You're more than welcome to look up Joe Glines on google if you have any questions about his credibility.
-## <a name="setup"/> Setup 
+## <a name="setup"/> Setup
 
 1. Set up the text channels, here are some that I made for my tribe discord
   - ⎣📜⎤ᴛʀɪʙᴇ ʟᴏɢ
@@ -93,8 +93,8 @@ https://www.youtube.com/watch?v=-r1KkZ8gDFA&ab_channel=JoeGlines-AutoHotkeyGuru
 - __How To Get Your Server's ID On Battlemetric__
   - Google your server name + battlemetric at the end for example
   - "smalltribes14 battlemetric"
-  - Click the first link and this will be your Battlemetric server's ID, paste it into the client 
- 
+  - Click the first link and this will be your Battlemetric server's ID, paste it into the client
+
 ![serverid](https://user-images.githubusercontent.com/12405800/137557838-34d196e6-746f-4882-aafe-5a22f412f426.png)
 
 - __How To Get Roles ID & user ID for @mention feature__
@@ -114,7 +114,7 @@ For @role you need to type in \\@\<role name\> and copy the number + the ampersa
  ![roleID](https://user-images.githubusercontent.com/12405800/137547199-7643a566-514f-4073-b348-7fb567ddd5a4.png)
 
 *@mention IDs must be separate by commas (,)*
-  
+
 ## <a name="note"/> Note
   - Must be in Fullscreen Window mode
   - Set the default fps to 15 to reduce the stress on your device
@@ -134,18 +134,52 @@ For @role you need to type in \\@\<role name\> and copy the number + the ampersa
   - Turn on chat auto-hide if you have it disabled
 
 *Why is the bot keep sending the same events to tribe log constantly ?*
-  - Turn off the bot (F1), press Esc to exit tribe log, and move the mouse to change the view camera of the character, and then start again. This is a bug that I was not able to fix but it rarely happens due to some pixels of the game on the screen confused the bot
-
-*Why does the bot say "CAN'T FIND TRIBE LOG" when the tribe log is visible on the screen?*
-  - Change HUD scale to 100%
-  - Turn off game filter or shader or any program that alters the original color of ark user interface.
-  - Try reset gamma to default first and try again, if that didn't work, it is most likely due to the pixels on the screen. Your screen color profile might be different than most, just create a ticket and I can help you out.
+  - Try to increase the shades of the event color, this is happen because your resolution is too low and letters are blurred making it hard for the script to detect
 
 *Why is the bot cropping the wrong area of tribe log*
   - Change HUD scale to 100%
 
 
 ## <a name="changelog"/> Changelog
+2.8.1
+- Added /logbot mute - Mute ALL notification
+-	/logbot unmute
+-	/logbot soundon	- Turn on sound alert
+-	/logbot soundoff - Turn off sound alert
+-	/logbot global <message> - Send global message in game
+-	/logbot tribe <message> - Send tribe message in game
+-	/logbot update - Update client
+- Required to host a bot on the same device of logbot to interact via Discord commands
+- **Fixed relog attmepts after stop hotkey triggered
+- Added shade and event color setting in Other Setting tab
+- Move in-game check to first action in logbot
+- Improved relogging algorithm
+- PixelSearch now search from bottom to top
+
+2.8.0
+- Improved reconnect algorithm now support all resolution that has a profile recorded
+- Improved pixel detection algorithm
+- Fixed join time out
+- Fixed joining fail
+- Fixed multiple sends for old event bug
+- Added Debug checkbox
+- Added Adjust groupbox
+- Added Reconnect tab
+- Added chatlog and member region into setting.ini
+- Added api request respond time to debug log
+- Added game crash detection and auto restart client (in testing)
+- Alt-Tab will now stop the bot now instead of trying to reactivate the window
+- Alt-Tab will now show GUI
+- Changed sensor detect color to orange
+- Click-n-drag to select tribelog, chatlog and member region crop now can be change via GUI if the script crop the wrong area
+- Rounded up seconds for downtime report
+- Swap location of checkboxes in Sound Alert groupbox
+- Change SetTimeout for api request from infinite -> 10s
+- Reset event count for @Mention and Sound Alert on stop
+- Reduced Battlemetric api request to 1 every 10 seconds instead of 1 every 1 second
+- Optimized relog algorithms using findText
+- Picture crop now support all resolution
+
 2.7.8
 - Fixed license key display as expired when still have time
 - Added @mention group box
