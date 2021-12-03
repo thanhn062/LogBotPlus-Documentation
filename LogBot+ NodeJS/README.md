@@ -75,7 +75,7 @@ __Baby command__
     - imp`name` `hour` `minute` - Add baby imprint timer
     - *Example*:
       - `/baby impGiga 4h`
-      - `/baby impMana 3h 30`
+      - `/baby impMana 3h 30m`
       - `/baby impThyla 30m`
 
 or
