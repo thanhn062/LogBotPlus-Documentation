@@ -45,7 +45,7 @@ module.exports = {
       try {
         const data = fs.writeFileSync('babyList.json', babyList);
         //file written successfully
-        msg.channel.send("```Baby "+ babyList[i].name +" deleted.```");
+        msg.channel.send("```Baby deleted.```");
       } catch (err) {
         console.error(err);
       }
