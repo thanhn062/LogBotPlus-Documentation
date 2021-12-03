@@ -33,7 +33,8 @@ __These features can be turn off__
  - Discord Server: https://discord.gg/zfRndj5Rn5
 - Youtube Video Demonstration: https://youtu.be/2yn08eq7O90
 - Youtube 2 Minutes Setup Guide: https://youtu.be/Vi7PxXmVmQU
-
+- Youtube Reconnect feature setup: https://youtu.be/9vxkLaE4Be4
+- LogBot+ NodeJS Dicord Bot source code: https://github.com/thanhn062/LogBotPlus-Documentation/tree/main/LogBot%2B%20NodeJS
 
 ## <a name="pictures"/> Pictures
 <img src="https://user-images.githubusercontent.com/12405800/133885544-2c93c779-72b0-4405-92af-594cfc1a1bb3.png" width="420" height="auto" />
